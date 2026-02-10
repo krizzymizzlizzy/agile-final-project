@@ -7,17 +7,18 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** customer
+ **I need** to add items to the cart
+ **So that** I can buy items from the webshop
    
  ### Details and Assumptions
- * [document what you know]
+ * purchasing works
+ * the cart can update
    
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given the customer adds items
+ When they click on "add"
+ Then the cart updates with one new item
  ```
